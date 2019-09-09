@@ -1,0 +1,195 @@
+:root {
+  --main-sky-blue: #00baff;
+  --main-red: #ff4226;
+}
+
+html {
+  
+  background: linear-gradient(to bottom,  #00baff, #00baff 10%, #fafafa 10%, #fafafa 90%, #fafafa 90%, #fafafa);
+  height: auto !important;
+}
+body {
+letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* 로고밑 NAV bar */
+
+header #header-bar>.row {
+  border-top: 4px solid #ffe953;
+  border-right: none;
+  border-bottom: none;
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+}
+header #right-search-form>input[type=text] {
+    border: 3px solid #ffe953;
+}
+
+/* 헤더 배너 */
+
+header .row>div:nth-child(1)>a {
+  display: block;
+  width: 145px;
+  height: 50px;
+  background: url(https://i.imgur.com/eluxtjZ.png) no-repeat;
+  background-size: auto 50px;
+}
+
+header .row>div:nth-child(1)>a>img {
+  display: none;
+	filter: grayscale(100%);
+  opacity: 0.8;
+}
+
+/* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
+
+#main .menu-wrapper>.header {
+  background: #ffe953;
+  color: #3e3e3e;
+}
+
+#main .menu-wrapper>.header>a,
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before,
+.fa-calendar:before {
+  color: #3e3e3e;
+}
+
+#main .menu-wrapper,
+#main #main-content>div.frame {
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+  border: none;
+}
+
+.fa-square:before {
+  color: #ff4226;
+}
+
+/* 헤더 검색 버튼 */
+
+header #right-search-form>#right-search-btn {
+  color: #ffe953;
+}
+
+/* 헤더 [광고]배경색 */
+
+header #header-bar #header-top-notice strong.notice-badge {
+  background: #515ce9;
+}
+
+/* fa색상 */
+
+header #header-bar .fa {
+  color: #ff1607;
+}
+
+/* 스트리머 게시판 상단 정보 글씨색상 */
+
+#board-info #board-info-bottom a {
+  color: #3f4e69;
+}
+
+/* 좌측메뉴 숏컷링크 글씨 색상 */
+
+#main .menu-wrapper>a>em {
+  color: #ff1607;
+}
+
+/* 좌측메뉴 메뉴사이의 공간 색상 */
+
+#main .menu-wrapper .spacer {
+  background: #eee;
+  height: 0.15em;
+}
+
+/* 게시글 관련부분 */
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 1px solid #aaa;
+  background: #f3f3f3;
+}
+
+#article-list #article-list-category>a {
+  background: #f3f3f3;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #ff4226;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #00bbff;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #273348;
+}
+
+#article-list>.article-list-row.active {
+  background: #f0fbff;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #00bbff;
+  border-color: #00bbff;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #00bbff;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #00bbff;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #00baff;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #00baff;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-reply-area>.header h5 {
+  color: #00baff;
+}
+
+#main .menu-wrapper>a {
+  padding: 0.5em 1.4em 0.5em 0.7em !important;
+}
+
+a {
+  color: #00baff;
+}
+
+span.a-badge i.fa.fa-info-circle {
+  color:  #fea0f2;
+}
+
+/* footer */
+
+.btn-primary {
+  background: #00baff !important;
+  border: none !important;
+  border-radius: 4px !important;
+}
