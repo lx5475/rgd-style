@@ -19,7 +19,7 @@ letter-spacing: -0.05em !important;
   header>#header-area>a>h1 {
     width: 89px !important;
     height: 32px !important;
-    background: url(http://cfile23.uf.tistory.com/image/9923B64C5D79080219093D) no-repeat !important;
+    background: url(https://t1.daumcdn.net/cfile/tistory/9923B64C5D79080219) no-repeat !important;
   }
   header>#header-area>#header-search-link {
     color: #3e3e3e !important;
@@ -49,7 +49,7 @@ header #right-search-form>input[type=text] {
 /* 헤더 배너 */
 
 header .row>div:nth-child(1)>a {
-  background: url(http://cfile29.uf.tistory.com/image/99A30D445D7914D92BE30F) no-repeat;
+  background: url(https://t1.daumcdn.net/cfile/tistory/99A30D445D7914D92B) no-repeat;
 }
 
 
