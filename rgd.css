@@ -15,7 +15,7 @@ letter-spacing: -0.05em !important;
   font-family: 'Nanum Gothic', sans-serif;
 }
 /* mobile */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   header>#header-area>a>h1 {
     background: url(https://i.imgur.com/oh7vzlb.png) no-repeat !important;
   }
