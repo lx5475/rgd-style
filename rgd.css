@@ -6,7 +6,7 @@
 
 html {
   
-  background: linear-gradient(to bottom,  #00baff, #00baff 10%, #fafafa 10%, #fafafa 90%, #fafafa 90%, #fafafa);
+  background: linear-gradient(to bottom,  #00baff, #00baff 200px, #fafafa 200px, #fafafa 90%, #fafafa 90%, #fafafa);
   height: auto !important;
 }
 body {
