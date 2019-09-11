@@ -17,10 +17,12 @@ letter-spacing: -0.05em !important;
 /* mobile */
 @media (max-width: 769px) {
   header>#header-area>a>h1 {
+    width: 89px !important;
+    height: 32px !important;
     background: url(https://i.imgur.com/L4Uihm6.png) no-repeat !important;
   }
   header>#header-area>#header-search-link {
-    color: #ffe953 !important;
+    color: #3e3e3e !important;
   }
   header {
     background: #00baff !important;
