@@ -16,9 +16,9 @@ letter-spacing: -0.05em !important;
 }
 /* mobile */
 @media (max-width: 767px) {
-  header>#header-area>a>h1 {
+/*  header>#header-area>a>h1 {
     background: url(https://i.imgur.com/eluxtjZ.png) no-repeat;
-  }
+  }*/
   header>#header-area>#header-search-link {
     color: #ffe953 !important;
   }
