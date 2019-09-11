@@ -16,15 +16,15 @@ letter-spacing: -0.05em !important;
 }
 /* mobile */
 @media (max-width: 767px) {
-/*  header>#header-area>a>h1 {
-    background: url(https://i.imgur.com/eluxtjZ.png) no-repeat;
-  }*/
+  header>#header-area>a>h1 {
+    background: url(https://i.imgur.com/oh7vzlb.png) no-repeat !important;
+  }
   header>#header-area>#header-search-link {
     color: #ffe953 !important;
   }
   header {
     background: #00baff !important;
-    border-bottom: 4px solid #ffe953 !important;
+    border-bottom: 1px solid #01a7e4 !important;
   }
   nav#nav>.nav-header {
     background: #ffe953 !important;
