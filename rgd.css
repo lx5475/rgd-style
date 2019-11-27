@@ -2,6 +2,7 @@
   --main-sky-blue: #00baff;
   --main-red: #ff4226;
   --main-yellow: #ffe953;
+  --milky-pink: #ff9fb6;
 }
 
 html {
@@ -14,12 +15,20 @@ letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
 }
+
+header #header-bar #header-menu-right {
+  border-left: none;
+}
+header #header-bar #header-menu-left {
+  border-right: none;
+}
 /* mobile */
 @media (max-width: 769px) {
   header>#header-area>a>h1 {
-    width: 89px !important;
-    height: 32px !important;
-    background: url(https://t1.daumcdn.net/cfile/tistory/9923B64C5D79080219) no-repeat !important;
+    background: url(https://lx5475.github.io/images/tgdrgd.svg) no-repeat;
+    background-size: 125px;
+    width: 125px;
+    margin-top: 4px;
   }
   header>#header-area>#header-search-link {
     color: #3e3e3e !important;
@@ -35,26 +44,42 @@ letter-spacing: -0.05em !important;
   nav#nav>.nav-header>a {
     color: #3e3e3e !important; 
   }
+  /* 광고창 */
+  #header-top-notice {
+    background: #00baff;
+  }
+  #header-top-notice strong.notice-badge {
+    background: #ffe953 !important;
+    color: #3e3e3e;
+  }
+}
+/* 광고 */
+header #header-bar #header-top-notice strong.notice-badge {
+  background: #ffe953 !important;
+  color: #3e3e3e;
 }
 /* 로고밑 NAV bar */
 
 header #header-bar>.row {
   border: none;
-  box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+  background: #00baff;
 }
 header #right-search-form>input[type=text] {
     border: 3px solid #3e3e3e;
 }
-
-
+/* 접속자 */
+#board-info #viewers-area .fa-user:before {
+  color: rgba(10, 59, 84, 0);
+  content: url(https://static-cdn.jtvnw.net/badges/v1/0487a612-f021-410a-824a-c9ca72a72c69/1);
+}
 /* 헤더 배너 */
 
 header .row>div:nth-child(1)>a {
   display: block;
-  width: 145px;
   height: 50px;
-  background: url(https://t1.daumcdn.net/cfile/tistory/99A30D445D7914D92B) no-repeat;
-  background-size: auto 50px;
+  margin-top: 5px;
+  background: url(https://lx5475.github.io/images/tgdrgd.svg) no-repeat;
+  background-size: auto 45px;
 }
 
 
@@ -77,6 +102,10 @@ header .row>div:nth-child(1)>a>img {
 .fa-bars:before,
 .fa-calendar:before {
   color: #3e3e3e;
+}
+/* 하트 */
+#article-list>.article-list-row>.item>.list-title>small.favo {
+  color: #ffc4d2;
 }
 
 #main .menu-wrapper,
@@ -104,7 +133,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* fa색상 */
 
 header #header-bar .fa {
-  color: #ff1607;
+  color: #3e3e3e;
 }
 
 /* 스트리머 게시판 상단 정보 글씨색상 */
@@ -113,10 +142,15 @@ header #header-bar .fa {
   color: #3f4e69;
 }
 
+#article-list #article-list-category {
+  border-top: 1px solid #ddd !important;
+  background: white !important;
+}
+
 /* 좌측메뉴 숏컷링크 글씨 색상 */
 
 #main .menu-wrapper>a>em {
-  color: #ff1607;
+  color: #aaaaaa;
 }
 
 /* 좌측메뉴 메뉴사이의 공간 색상 */
@@ -213,5 +247,12 @@ span.a-badge i.fa.fa-info-circle {
 .btn-primary {
   background: #00baff !important;
   border: none !important;
-  border-radius: 4px !important;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#article-list #article-option-area>#article-option-area-toggle-btn {
+  background: white !important;
 }
