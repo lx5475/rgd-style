@@ -242,8 +242,17 @@ span.a-badge i.fa.fa-info-circle {
   color:  #fea0f2;
 }
 
-/* footer */
+/* 댓글 입력창 상단 border */
+.fr-toolbar {
+  border-top: 1px solid #eee;
+}
 
+#article-content-wrapper>.footer {
+  background: #fafafa;
+  border: 1px solid #eee;
+}
+
+/* footer */
 .btn-primary {
   background: #00baff !important;
   border: none !important;
