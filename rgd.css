@@ -49,6 +49,17 @@
          background: #ffe953 !important;
          color: #3e3e3e;
     }
+    footer {
+      background: #fafafa !important;
+      border-top: 1px solid #f4f4f4 !important;
+    }
+    #movetotop {
+      opacity: 1 !important; 
+      background: url(https://lx5475.github.io/images/move_to_top.png);
+    }
+    #movetotop>img {
+      opacity: 0 !important;
+    }
 }
 /* 광고 */
  header #header-bar #header-top-notice strong.notice-badge {
