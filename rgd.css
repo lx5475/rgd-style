@@ -66,6 +66,7 @@ header #header-bar>.row {
 }
 header #right-search-form>input[type=text] {
     border: 3px solid #3e3e3e;
+    border-radius: 3px;
 }
 /* 접속자 */
 #board-info #viewers-area .fa-user:before {
@@ -94,6 +95,8 @@ header .row>div:nth-child(1)>a>img {
 #main .menu-wrapper>.header {
   background: #ffe953;
   color: #3e3e3e;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 #main .menu-wrapper>.header>a,
@@ -112,6 +115,7 @@ header .row>div:nth-child(1)>a>img {
 #main #main-content>div.frame {
   box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
   border: none;
+  border-radius: 3px;
 }
 
 .fa-square:before {
@@ -143,7 +147,7 @@ header #header-bar .fa {
 }
 
 #article-list #article-list-category {
-  border-top: 1px solid #ddd !important;
+  border: none !important;
   background: white !important;
 }
 
@@ -172,7 +176,10 @@ header #header-bar .fa {
 }
 
 #article-list #article-list-category>a {
-  background: #f3f3f3;
+  background: #ffffff;
+}
+#article-list #article-list-category>a:hover {
+  background: #fafafa;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
@@ -199,6 +206,9 @@ header #header-bar .fa {
 .pagination>.active>span:hover {
   background-color: #00bbff;
   border-color: #00bbff;
+  border-radius: 3px;
+  margin-right: 5px;
+  padding: 4px 10px;
 }
 
 .pagination>li>a:focus,
@@ -211,6 +221,15 @@ header #header-bar .fa {
 .pagination>li>a,
 .pagination>li>span {
   color: #00bbff;
+}
+
+#boardSearchForm .input-group-btn>.dropdown-toggle {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#boardSearchForm input[name=search_term] {
+  height: 30.5px;
+  border: 1px solid #eee;
 }
 
 #article-content-wrapper>.header {
@@ -239,7 +258,11 @@ a {
 }
 
 span.a-badge i.fa.fa-info-circle {
-  color:  #fea0f2;
+  color:  #ff9fb6;
+}
+
+#board-info h1 {
+  border-bottom: none;
 }
 
 /* 댓글 입력창 상단 border */
@@ -250,6 +273,22 @@ span.a-badge i.fa.fa-info-circle {
 #article-content-wrapper>.footer {
   background: #fafafa;
   border: 1px solid #eee;
+}
+#article-list>.article-list-row.notice {
+  background: #FFF;
+}
+#article-list>.article-list-row.notice .list-header>b {
+  color: #666;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+#article-list>.article-list-row.hot {
+  background: #f8f8f8;
+}
+#article-list>.article-list-row.hot .list-header>b {
+  color: #ff4226;
+  border: 1px solid #ff4226;
+  border-radius: 3px;
 }
 
 /* footer */
@@ -264,4 +303,7 @@ span.a-badge i.fa.fa-info-circle {
 }
 #article-list #article-option-area>#article-option-area-toggle-btn {
   background: white !important;
+}
+.btn.square {
+  border-radius: 3px !important;
 }
