@@ -176,9 +176,15 @@
 }
  .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
      color: #00bbff;
+     border-radius: 3px;
+     margin-right: 5px;
+     padding: 4px 10px;
 }
  .pagination>li>a, .pagination>li>span {
      color: #00bbff;
+     border-radius: 3px;
+     margin-right: 5px;
+     padding: 4px 10px;
 }
  #boardSearchForm .input-group-btn>.dropdown-toggle {
      border-top-right-radius: 0px;
