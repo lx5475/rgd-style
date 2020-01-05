@@ -72,6 +72,10 @@
 #board-info {
     margin: 0 !important;
 }
+#board-info #board-info-bottom a {
+  color: rgba(10, 59, 84, 0.4);  
+}
+
 /* 헤더 배너 */
  header .row>div:nth-child(1)>a {
      display: block;
@@ -92,7 +96,7 @@
      border-top-left-radius: 3px;
      border-top-right-radius: 3px;
 }
- #main .menu-wrapper>.header>a, .fa-navicon:before, .fa-reorder:before, .fa-bars:before, .fa-calendar:before {
+ #main .menu-wrapper>.header>a, .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
      color: #3e3e3e;
 }
 /* 하트 */
