@@ -125,9 +125,6 @@
      color: #3e3e3e;
 }
 /* 스트리머 게시판 상단 정보 글씨색상 */
- #board-info #board-info-bottom a {
-     color: #3f4e69;
-}
  #article-list #article-list-category {
      border: none !important;
      background: white !important;
@@ -229,7 +226,7 @@
  #article-list>.article-list-row.notice {
      background: #FFF;
 }
- #article-list>.article-list-row.notice .list-header>b {
+ #article-list>.article-list-row.notice .list-header>strong {
      color: #666;
      border: 1px solid #666;
      border-radius: 3px;
