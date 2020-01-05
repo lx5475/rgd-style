@@ -59,6 +59,7 @@
  header #header-bar>.row {
      border: none;
      background: #00baff;
+     border-radius: 3px;
 }
  header #right-search-form>input[type=text] {
      border: none;
