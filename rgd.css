@@ -69,6 +69,9 @@
      color: rgba(10, 59, 84, 0);
      content: url(https://static-cdn.jtvnw.net/badges/v1/0487a612-f021-410a-824a-c9ca72a72c69/1);
 }
+#board-info {
+    margin: 0 !important;
+}
 /* 헤더 배너 */
  header .row>div:nth-child(1)>a {
      display: block;
