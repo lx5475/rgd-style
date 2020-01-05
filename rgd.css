@@ -118,6 +118,7 @@
 /* 헤더 [광고]배경색 */
  header #header-bar #header-top-notice strong.notice-badge {
      background: #515ce9;
+     border-radius: 3px;
 }
 /* fa색상 */
  header #header-bar .fa {
