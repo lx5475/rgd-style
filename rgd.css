@@ -52,8 +52,8 @@
 }
 /* 광고 */
  header #header-bar #header-top-notice strong.notice-badge {
-     background: #ffe953 !important;
-     color: #3e3e3e;
+     background: #3e3e3e !important;
+     color: #FFF;
 }
 /* 로고밑 NAV bar */
  header #header-bar>.row {
@@ -246,10 +246,6 @@
  .btn-primary {
      background: #00baff !important;
      border: none !important;
-}
- .pagination>li:last-child>a, .pagination>li:last-child>span {
-     border-top-right-radius: 0px;
-     border-bottom-right-radius: 0px;
 }
  #article-list #article-option-area>#article-option-area-toggle-btn {
      background: white !important;
