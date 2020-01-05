@@ -5,7 +5,7 @@
      --milky-pink: #ff9fb6;
 }
  html {
-     background: linear-gradient(to bottom, #00baff, #00baff 180px, #fafafa 180px, #fafafa 90%, #fafafa 90%, #fafafa);
+     background: linear-gradient(to bottom, #00baff, #00baff 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
      height: auto !important;
 }
  body {
