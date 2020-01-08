@@ -75,7 +75,7 @@
 /* 로고밑 NAV bar */
  header #header-bar>.row {
      border: none;
-     background: #00baff;
+     background: transparent;
 }
  header #right-search-form>input[type=text] {
     border: none;
@@ -210,7 +210,7 @@
      border: 1px solid #eee;
 }
  #article-content-wrapper>.header {
-     border-top: 2px solid #00baff;
+     border: 1px solid #eee;
 }
  #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
      color: #00baff;
@@ -225,7 +225,7 @@
      padding: 0.5em 1.4em 0.5em 0.7em !important;
 }
  a {
-     color: #00baff;
+     color: #ff9fb6;
 }
  span.a-badge i.fa.fa-info-circle {
      color: #ff9fb6;
