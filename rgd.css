@@ -50,8 +50,9 @@
          background: #00baff;
     }
      #header-top-notice strong.notice-badge {
-         background: #ffe953 !important;
-         color: #3e3e3e;
+         background: #3e3e3e !important;
+        color: #FFF;
+        border-radius: 3px;
     }
     footer {
       background: #fafafa !important;
