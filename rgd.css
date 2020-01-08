@@ -33,6 +33,7 @@
     }
      header>#header-area>#header-search-link {
          color: #3e3e3e !important;
+         padding: 4px 16px !important;
     }
      header {
          background: #00baff !important;
@@ -57,6 +58,9 @@
     footer {
       background: #fafafa !important;
       border-top: 1px solid #f4f4f4 !important;
+    }
+    header>#header-area>#header-bar-link {
+        padding: 4px 16px !important;
     }
 }
 #movetotop {
