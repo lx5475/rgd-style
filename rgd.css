@@ -272,3 +272,6 @@
  .btn.square {
      border-radius: 3px;
 }
+#article-list>.article-list-row>.item>.list-title>.list-category {
+    width: 70px;
+}
