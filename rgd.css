@@ -1,3 +1,4 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 :root {
      --main-sky-blue: #00baff;
      --main-red: #ff4226;
@@ -22,6 +23,10 @@
 #board-info > img {
     float: left !important;
     margin-right: 10px;
+}
+#board-info h1>a {
+    font-weight: bold;
+    font-family: 'NanumSquareRound', sans-serif;
 }
 /* mobile */
  @media (max-width: 769px) {
@@ -170,12 +175,15 @@
 }
  #article-list #article-list-category>a {
      background: #ffffff;
+     font-family: 'NanumSquareRound',sans-serif;
 }
  #article-list #article-list-category>a:hover {
      background: #fafafa;
 }
  #article-list>.article-list-row>.item>.list-header>span {
      background-color: #ff4226;
+     padding: 2px 5px 1px 4px !important;
+     font-family: 'NanumSquareRound',sans-serif;
 }
  #article-list>.article-list-row>.item>.list-title>small.comment-count {
      color: #00bbff;
@@ -219,8 +227,13 @@
  #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
      color: #00baff;
 }
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer {
+    font-family: 'NanumSquareRound',sans-serif;
+    font-weight: 700;
+}
  #article-info>h2 {
      font-weight: bold;
+     font-family: 'NanumSquareRound',sans-serif;
 }
  #article-reply-area>.header h5 {
      color: #00baff;
@@ -252,6 +265,7 @@
      color: #666;
      border: 1px solid #666;
      border-radius: 3px;
+     font-family: 'NanumSquareRound',sans-serif;
 }
  #article-list>.article-list-row.hot {
      background: #f8f8f8;
@@ -260,6 +274,7 @@
      color: #ff4226;
      border: 1px solid #ff4226;
      border-radius: 3px;
+     font-family: 'NanumSquareRound',sans-serif;
 }
 /* footer */
  .btn-primary {
@@ -274,4 +289,6 @@
 }
 #article-list>.article-list-row>.item>.list-title>.list-category {
     width: 70px;
+    font-family: 'NanumSquareRound',sans-serif;
+    font-weight: 700;
 }
