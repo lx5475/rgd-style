@@ -9,7 +9,7 @@
      --milky-pink: #ff9fb6;
 }
  html {
-     background: linear-gradient(to bottom, #00baff, #00baff 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
+     background: linear-gradient(to bottom, #ff9fb6, #ff9fb6 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
      height: auto !important;
 }
  body {
@@ -31,10 +31,18 @@
     font-weight: bold;
     font-family: 'NanumSquareRound', sans-serif;
 }
+/* 헤더 배너 */
+header .row>div:nth-child(1)>a {
+    display: block;
+    height: 50px;
+    margin-top: 5px;
+    background: url(https://lx5475.github.io/images/tgdrgd_valentine.svg) no-repeat;
+    background-size: auto 45px;
+}
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd.svg) no-repeat;
+         background: url(https://lx5475.github.io/images/tgdrgd_valentine.svg) no-repeat;
          background-size: 125px;
          width: 125px;
          margin-top: 4px;
@@ -106,14 +114,6 @@
   color: rgba(10, 59, 84, 0.4);  
 }
 
-/* 헤더 배너 */
- header .row>div:nth-child(1)>a {
-     display: block;
-     height: 50px;
-     margin-top: 5px;
-     background: url(https://lx5475.github.io/images/tgdrgd.svg) no-repeat;
-     background-size: auto 45px;
-}
  header .row>div:nth-child(1)>a>img {
      display: none;
      filter: grayscale(100%);
