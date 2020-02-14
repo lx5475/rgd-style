@@ -31,6 +31,14 @@
     font-weight: bold;
     font-family: 'NanumSquareRound', sans-serif;
 }
+/* 헤더 배너 */
+header .row>div:nth-child(1)>a {
+    display: block;
+    height: 50px;
+    margin-top: 5px;
+    background: url(https://lx5475.github.io/images/tgdrgd_sat.svg) no-repeat;
+    background-size: auto 45px;
+}
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
@@ -56,7 +64,7 @@
     }
     /* 광고창 */
      #header-top-notice {
-         background: #00baff;
+         background: #ffd400;
     }
      #header-top-notice strong.notice-badge {
          background: #3e3e3e !important;
@@ -106,14 +114,7 @@
   color: rgba(10, 59, 84, 0.4);  
 }
 
-/* 헤더 배너 */
- header .row>div:nth-child(1)>a {
-     display: block;
-     height: 50px;
-     margin-top: 5px;
-     background: url(https://lx5475.github.io/images/tgdrgd_sat.svg) no-repeat;
-     background-size: auto 45px;
-}
+
  header .row>div:nth-child(1)>a>img {
      display: none;
      filter: grayscale(100%);
