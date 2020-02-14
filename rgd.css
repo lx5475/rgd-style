@@ -9,7 +9,7 @@
      --milky-pink: #ff9fb6;
 }
  html {
-     background: linear-gradient(to bottom, #ffd400, #ffd400 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
+     background: linear-gradient(to bottom, #00baff, #00baff 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
      height: auto !important;
 }
  body {
@@ -36,13 +36,13 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/tgdrgd_sat.svg) no-repeat;
+    background: url(https://lx5475.github.io/images/tgdrgd_tue.svg) no-repeat;
     background-size: auto 45px;
 }
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_sat.svg) no-repeat;
+         background: url(https://lx5475.github.io/images/tgdrgd_tue.svg) no-repeat;
          background-size: 125px;
          width: 125px;
          margin-top: 4px;
@@ -52,8 +52,8 @@ header .row>div:nth-child(1)>a {
          padding: 4px 16px !important;
     }
      header {
-         background: #ffd400 !important;
-         border-bottom: 1px solid #ffd400 !important;
+         background: #00baff !important;
+         border-bottom: 1px solid #00baff !important;
     }
      nav#nav>.nav-header {
          background: #ffe953 !important;
@@ -64,7 +64,7 @@ header .row>div:nth-child(1)>a {
     }
     /* 광고창 */
      #header-top-notice {
-         background: #ffd400;
+         background: #00baff;
     }
      #header-top-notice strong.notice-badge {
          background: #3e3e3e !important;
