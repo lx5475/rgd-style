@@ -57,8 +57,8 @@ header .row>div:nth-child(1)>a {
          border-bottom: 1px solid #00ecc8 !important;
     }
      nav#nav>.nav-header {
-         background: #ffe953 !important;
-         color: #3e3e3e !important;
+         background: #00b2ff !important;
+         color: #222 !important;
     }
      nav#nav>.nav-header>a {
          color: #3e3e3e !important;
@@ -123,8 +123,8 @@ header .row>div:nth-child(1)>a {
 }
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
  #main .menu-wrapper>.header {
-     background: #ffe953;
-     color: #3e3e3e;
+     background: #00b2ff;
+     color: #222;
      border-top-left-radius: 3px;
      border-top-right-radius: 3px;
 }
@@ -296,4 +296,13 @@ header .row>div:nth-child(1)>a {
     width: 70px;
     font-family: 'NanumSquareRound',sans-serif;
     font-weight: 700;
+}
+header #header-bar #header-menu-right #userDropdown img.profile-img {
+	border-radius: 3px !important;
+}
+
+.fr-toolbar.fr-top, .fr-box.fr-basic.fr-top .fr-wrapper {
+	box-shadow: 0 0px 1px rgba(0,0,0,.06),0 0px 7px 1px rgba(0,0,0,.06);
+	-webkit-box-shadow: 0 0px 1px rgba(0,0,0,.06),0 0px 7px 1px rgba(0,0,0,.06);
+	-moz-box-shadow: 0 0px 1px rgba(0,0,0,.06),0 0px 7px 1px rgba(0,0,0,.06);
 }
