@@ -39,46 +39,7 @@ header .row>div:nth-child(1)>a {
     background: url(https://lx5475.github.io/images/tgdrgd_sat.svg) no-repeat;
     background-size: auto 45px;
 }
-/* mobile */
- @media (max-width: 769px) {
-     header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_sat.svg) no-repeat;
-         background-size: 125px;
-         width: 125px;
-         margin-top: 4px;
-    }
-     header>#header-area>#header-search-link {
-         color: #3e3e3e !important;
-         padding: 4px 16px !important;
-    }
-     header {
-         background: #ffd400 !important;
-         border-bottom: 1px solid #ffd400 !important;
-    }
-     nav#nav>.nav-header {
-         background: #ffe953 !important;
-         color: #3e3e3e !important;
-    }
-     nav#nav>.nav-header>a {
-         color: #3e3e3e !important;
-    }
-    /* 광고창 */
-     #header-top-notice {
-         background: #ffd400;
-    }
-     #header-top-notice strong.notice-badge {
-         background: #3e3e3e !important;
-        color: #FFF;
-        border-radius: 3px;
-    }
-    footer {
-      background: #fafafa !important;
-      border-top: 1px solid #f4f4f4 !important;
-    }
-    header>#header-area>#header-bar-link {
-        padding: 4px 16px !important;
-    }
-}
+
 #movetotop {
   opacity: 1 !important; 
   background: url(https://lx5475.github.io/images/move_to_top.png) no-repeat;
@@ -113,6 +74,15 @@ header .row>div:nth-child(1)>a {
 #board-info #board-info-bottom a {
   color: rgba(10, 59, 84, 0.4);  
 }
+header #header-bar #header-menu-right #userDropdown img.profile-img {
+	border-radius: 3px !important;
+}
+
+.fr-toolbar.fr-top, .fr-box.fr-basic.fr-top .fr-wrapper {
+	box-shadow: 0 0px 1px rgba(0,0,0,.06),0 0px 7px 1px rgba(0,0,0,.06);
+	-webkit-box-shadow: 0 0px 1px rgba(0,0,0,.06),0 0px 7px 1px rgba(0,0,0,.06);
+	-moz-box-shadow: 0 0px 1px rgba(0,0,0,.06),0 0px 7px 1px rgba(0,0,0,.06);
+}
 
 
  header .row>div:nth-child(1)>a>img {
@@ -122,12 +92,12 @@ header .row>div:nth-child(1)>a {
 }
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
  #main .menu-wrapper>.header {
-     background: #ffe953;
+     background: #8a42ff;
      color: #3e3e3e;
      border-top-left-radius: 3px;
      border-top-right-radius: 3px;
 }
- #main .menu-wrapper>.header>a, .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+#main .menu-wrapper>.header>a, .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
      color: #3e3e3e;
 }
 /* 하트 */
@@ -295,4 +265,45 @@ header .row>div:nth-child(1)>a {
     width: 70px;
     font-family: 'NanumSquareRound',sans-serif;
     font-weight: 700;
+}
+/* mobile */
+@media (max-width: 769px) {
+    header>#header-area>a>h1 {
+        background: url(https://lx5475.github.io/images/tgdrgd_sat.svg) no-repeat;
+        background-size: 125px;
+        width: 125px;
+        margin-top: 4px;
+   }
+    header>#header-area>#header-search-link {
+        color: #3e3e3e !important;
+        padding: 4px 16px !important;
+   }
+    header {
+        background: #ffd400 !important;
+        border-bottom: 1px solid #ffd400 !important;
+   }
+    nav#nav>.nav-header {
+        background: #8a42ff !important;
+        color: #f9f9f9 !important;
+   }
+    nav#nav>.nav-header>a {
+        color: #3e3e3e !important;
+   }
+   
+   /* 광고창 */
+    #header-top-notice {
+        background: #ffd400;
+   }
+    #header-top-notice strong.notice-badge {
+        background: #3e3e3e !important;
+       color: #FFF;
+       border-radius: 3px;
+   }
+   footer {
+     background: #fafafa !important;
+     border-top: 1px solid #f4f4f4 !important;
+   }
+   header>#header-area>#header-bar-link {
+       padding: 4px 16px !important;
+   }
 }
