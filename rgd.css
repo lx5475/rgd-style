@@ -9,7 +9,7 @@
      --milky-pink: #ff9fb6;
 }
  html {
-     background: linear-gradient(to bottom, #00baff, #00baff 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
+     background: linear-gradient(to bottom, #2d2d2d, #2d2d2d 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
      height: auto !important;
 }
  body {
@@ -37,35 +37,35 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/tgdrgd_tue.svg) no-repeat;
+    background: url(https://lx5475.github.io/images/tgdrgd_oscar.svg) no-repeat;
     background-size: auto 45px;
 }
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_tue.svg) no-repeat;
+         background: url(https://lx5475.github.io/images/tgdrgd_oscar.svg) no-repeat;
          background-size: 125px;
          width: 125px;
          margin-top: 4px;
     }
      header>#header-area>#header-search-link {
-         color: #3e3e3e !important;
+         color: #F6B941 !important;
          padding: 4px 16px !important;
     }
      header {
-         background: #00baff !important;
-         border-bottom: 1px solid #00baff !important;
+         background: #2d2d2d !important;
+         border-bottom: 1px solid #2d2d2d !important;
     }
      nav#nav>.nav-header {
-         background: #ff2b00 !important;
-         color: #3e3e3e !important;
+         background: #F6B941 !important;
+         color: #fff !important;
     }
      nav#nav>.nav-header>a {
-         color: #3e3e3e !important;
+         color: #fff !important;
     }
     /* 광고창 */
      #header-top-notice {
-         background: #00baff;
+         background: #2d2d2d;
     }
      #header-top-notice strong.notice-badge {
          background: #3e3e3e !important;
@@ -89,9 +89,12 @@ header .row>div:nth-child(1)>a {
   opacity: 0 !important;
 }
 /* 광고 */
- header #header-bar #header-top-notice strong.notice-badge {
+header #header-bar #header-top-notice strong.notice-badge {
      background: #3e3e3e !important;
      color: #FFF;
+}
+header #header-bar #header-top-notice a {
+    color: #fff;
 }
 /* 로고밑 NAV bar */
  header #header-bar>.row {
@@ -123,13 +126,13 @@ header .row>div:nth-child(1)>a {
 }
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
  #main .menu-wrapper>.header {
-     background: #ff2b00;
+     background: #F6B941;
      color: #3e3e3e;
      border-top-left-radius: 3px;
      border-top-right-radius: 3px;
 }
  #main .menu-wrapper>.header>a, .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-     color: #3e3e3e;
+     color: #F6B941;
 }
 /* 하트 */
  #article-list>.article-list-row>.item>.list-title>small.favo {
@@ -145,7 +148,7 @@ header .row>div:nth-child(1)>a {
 }
 /* 헤더 검색 버튼 */
  header #right-search-form>#right-search-btn {
-     color: #3e3e3e;
+     color: #F6B941;
 }
 /* 헤더 [광고]배경색 */
  header #header-bar #header-top-notice strong.notice-badge {
@@ -154,7 +157,7 @@ header .row>div:nth-child(1)>a {
 }
 /* fa색상 */
  header #header-bar .fa {
-     color: #3e3e3e;
+     color: #fff;
 }
 /* 스트리머 게시판 상단 정보 글씨색상 */
  #article-list #article-list-category {
