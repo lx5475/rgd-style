@@ -9,12 +9,13 @@
      --milky-pink: #ff9fb6;
 }
  html {
-     background: linear-gradient(to bottom, #b0f32e, #b0f32e 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
-     height: auto !important;
+    background: linear-gradient(to bottom, transparent 180px, transparent 180px, #fff 90%, #fff 90%, #fff);
 }
  body {
+    background: url(https://lx5475.github.io/images/tgd_background.jpg);
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
      letter-spacing: -0.05em !important;
-     background: transparent;
      font-family: 'Nanum Gothic', sans-serif;
 }
  header #header-bar #header-menu-right {
@@ -37,13 +38,13 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/tgdrgd_2nd_aniv.png) no-repeat;
+    background: transparent;
     background-size: auto 45px;
 }
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_2nd_aniv.png) no-repeat;
+         background: url(https://lx5475.github.io/images/tgdrgd_m_hbd.png) no-repeat;
          background-size: 125px;
          width: 125px;
          margin-top: 4px;
@@ -53,11 +54,11 @@ header .row>div:nth-child(1)>a {
          padding: 4px 16px !important;
     }
      header {
-         background: #b0f32e !important;
-         border-bottom: 1px solid #b0f32e !important;
+         background: white !important;
+         border-bottom: 1px solid #ddd !important;
     }
      nav#nav>.nav-header {
-         background: #ff80ab !important;
+         background: white !important;
          color: #3e3e3e !important;
     }
      nav#nav>.nav-header>a {
@@ -65,7 +66,7 @@ header .row>div:nth-child(1)>a {
     }
     /* 광고창 */
      #header-top-notice {
-         background: #b0f32e;
+         background: white;
     }
      #header-top-notice strong.notice-badge {
          background: #3e3e3e !important;
@@ -123,7 +124,7 @@ header .row>div:nth-child(1)>a {
 }
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
  #main .menu-wrapper>.header {
-     background: #ff80ab;
+     background: #ffffff;
      color: #3e3e3e;
      border-top-left-radius: 3px;
      border-top-right-radius: 3px;
