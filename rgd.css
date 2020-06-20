@@ -7,6 +7,7 @@
      --main-red: #ff4226;
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
+     
 }
  html {
      background: linear-gradient(to bottom, #ffd7e4, #ffd7e4 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
