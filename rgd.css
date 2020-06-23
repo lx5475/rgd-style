@@ -307,3 +307,11 @@ header #header-bar #header-menu-right #userDropdown img.profile-img {
        padding: 4px 16px !important;
    }
 }
+/* 이미지 가리기 */
+.hidden-image {
+    opacity: 0;
+    transition: 0.3s;
+}
+.hidden-image:hover { 
+    opacity: 1;
+}
