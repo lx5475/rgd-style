@@ -38,13 +38,13 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/tgdrgd_pipi.png) no-repeat;
+    background: url(https://lx5475.github.io/images/tgdrgd_chooseok.png) no-repeat;
     background-size: auto 45px;
 }
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_pipi.png) no-repeat;
+         background: url(https://lx5475.github.io/images/tgdrgd_chooseok.png) no-repeat;
          background-size: 125px;
          width: 125px;
          margin-top: 4px;
