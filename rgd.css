@@ -9,7 +9,7 @@
      --milky-pink: #ff9fb6;
 }
  html {
-     background: linear-gradient(to bottom, #c9932b, #c9932b 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
+     background: linear-gradient(to bottom, #ffffff, #ffffff 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
      height: auto !important;
 }
  body {
@@ -37,13 +37,13 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/tgdrgd_halloween.svg) no-repeat;
+    background: url(https://lx5475.github.io/images/tgdrgd_saman.png) no-repeat;
     background-size: auto 45px;
 }
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_halloween.svg) no-repeat;
+         background: url(https://lx5475.github.io/images/tgdrgd_saman.png) no-repeat;
          background-size: 125px;
          width: 125px;
          margin-top: 4px;
@@ -53,11 +53,11 @@ header .row>div:nth-child(1)>a {
          padding: 4px 16px !important;
     }
      header {
-         background: #c9932b !important;
-         border-bottom: 1px solid #c9932b !important;
+         background: #ffffff !important;
+         border-bottom: 1px solid #ffffff !important;
     }
      nav#nav>.nav-header {
-         background: #8452df !important;
+         background: #ff0000 !important;
          color: #3e3e3e !important;
     }
      nav#nav>.nav-header>a {
@@ -65,7 +65,7 @@ header .row>div:nth-child(1)>a {
     }
     /* 광고창 */
      #header-top-notice {
-         background: #c9932b;
+         background: #ffffff;
     }
      #header-top-notice strong.notice-badge {
          background: #3e3e3e !important;
@@ -123,7 +123,7 @@ header .row>div:nth-child(1)>a {
 }
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
  #main .menu-wrapper>.header {
-     background: #8452df;
+     background: #ff0000;
      color: #3e3e3e;
      border-top-left-radius: 3px;
      border-top-right-radius: 3px;
@@ -141,7 +141,7 @@ header .row>div:nth-child(1)>a {
      border-radius: 3px;
 }
  .fa-square:before {
-     color: #8452df;
+     color: #ff0000;
 }
 /* 헤더 검색 버튼 */
  header #right-search-form>#right-search-btn {
@@ -186,12 +186,12 @@ header .row>div:nth-child(1)>a {
      background: #fafafa;
 }
  #article-list>.article-list-row>.item>.list-header>span {
-     background-color: #8452df;
+     background-color: #ff0000;
      padding: 2px 5px 1px 4px !important;
      font-family: 'NanumSquareRound',sans-serif;
 }
  #article-list>.article-list-row>.item>.list-title>small.comment-count {
-     color: #c9932b;
+     color: var(--main-sky-blue);
 }
  #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
      color: #273348;
@@ -200,20 +200,20 @@ header .row>div:nth-child(1)>a {
      background: #f0fbff;
 }
  .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-     background-color: #c9932b;
-     border-color: #c9932b;
+     background-color: var(--milky-pink);
+     border-color: var(--milky-pink);
      border-radius: 3px;
      margin-right: 5px;
      padding: 4px 10px;
 }
  .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-     color: #c9932b;
+     color: var(--milky-pink);
      border-radius: 3px;
      margin-right: 5px;
      padding: 4px 10px;
 }
  .pagination>li>a, .pagination>li>span {
-     color: #c9932b;
+     color: var(--milky-pink);
      border-radius: 3px;
      margin-right: 5px;
      padding: 4px 10px;
@@ -276,14 +276,14 @@ header .row>div:nth-child(1)>a {
      background: #f8f8f8;
 }
  #article-list>.article-list-row.hot .list-header>b {
-     color: #8452df;
-     border: 1px solid #8452df;
+     color: #ff0000;
+     border: 1px solid #ff0000;
      border-radius: 3px;
      font-family: 'NanumSquareRound',sans-serif;
 }
 /* footer */
  .btn-primary {
-     background: #c9932b !important;
+     background: #ffffff !important;
      border: none !important;
 }
  #article-list #article-option-area>#article-option-area-toggle-btn {
