@@ -283,7 +283,7 @@ header .row>div:nth-child(1)>a {
 }
 /* footer */
  .btn-primary {
-     background: #ffffff !important;
+     background: var(--main-sky-blue) !important;
      border: none !important;
 }
  #article-list #article-option-area>#article-option-area-toggle-btn {
