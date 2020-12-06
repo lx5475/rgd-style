@@ -1,15 +1,21 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 /*
-    [Version] 1.0.0
+    [Version] 2.0.0
 */
 :root {
      --main-sky-blue: #00baff;
      --main-red: #ff4226;
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
+
+     --header-color: #00ecc8;
+     --header-color2: #fcfcfc;
+     --accent-color: #515ce9;
+
+     --icon-color: #3e3e3e;
 }
  html {
-     background: linear-gradient(to bottom, #00ecc8, #00ecc8 180px, #fcfcfc 180px, #fcfcfc 90%, #fcfcfc 90%, #fcfcfc);
+     background: linear-gradient(to bottom, var(--header-color), var(--header-color) 180px, var(--header-color2) 180px, var(--header-color2) 90%, var(--header-color2) 90%, var(--header-color2));
      height: auto !important;
 }
  body {
@@ -49,15 +55,15 @@ header .row>div:nth-child(1)>a {
          margin-top: 4px;
     }
      header>#header-area>#header-search-link {
-         color: #3e3e3e !important;
+         color: var(--icon-color) !important;
          padding: 4px 16px !important;
     }
      header {
-         background: #00ecc8 !important;
-         border-bottom: 1px solid #00ecc8 !important;
+         background: var(--header-color) !important;
+         border-bottom: 1px solid var(--header-color) !important;
     }
      nav#nav>.nav-header {
-         background: #00b2ff !important;
+         background: var(--main-sky-blue) !important;
          color: #222 !important;
     }
      nav#nav>.nav-header>a {
@@ -65,7 +71,7 @@ header .row>div:nth-child(1)>a {
     }
     /* 광고창 */
      #header-top-notice {
-         background: #00ecc8;
+         background: var(--header-color);
     }
      #header-top-notice strong.notice-badge {
          background: #3e3e3e !important;
@@ -123,17 +129,17 @@ header .row>div:nth-child(1)>a {
 }
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
  #main .menu-wrapper>.header {
-     background: #00b2ff;
+     background: var(--main-sky-blue);
      color: #222;
      border-top-left-radius: 3px;
      border-top-right-radius: 3px;
 }
  #main .menu-wrapper>.header>a, .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-     color: #3e3e3e;
+     color: var(--icon-color);
 }
 /* 하트 */
  #article-list>.article-list-row>.item>.list-title>small.favo {
-     color: #ffc4d2;
+     color: var(--milky-pink);
 }
  #main .menu-wrapper, #main #main-content>div.frame {
      box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
@@ -141,7 +147,7 @@ header .row>div:nth-child(1)>a {
      border-radius: 3px;
 }
  .fa-square:before {
-     color: #ff4226;
+     color: var(--main-red);
 }
 /* 헤더 검색 버튼 */
  header #right-search-form>#right-search-btn {
@@ -149,7 +155,7 @@ header .row>div:nth-child(1)>a {
 }
 /* 헤더 [광고]배경색 */
  header #header-bar #header-top-notice strong.notice-badge {
-     background: #515ce9;
+     background: var(--accent-color);
      border-radius: 3px;
 }
 /* fa색상 */
@@ -186,12 +192,12 @@ header .row>div:nth-child(1)>a {
      background: #fafafa;
 }
  #article-list>.article-list-row>.item>.list-header>span {
-     background-color: #ff4226;
+     background-color: var(--main-red);
      padding: 2px 5px 1px 4px !important;
      font-family: 'NanumSquareRound',sans-serif;
 }
  #article-list>.article-list-row>.item>.list-title>small.comment-count {
-     color: #00bbff;
+     color: var(--main-sky-blue);
 }
  #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
      color: #273348;
@@ -200,20 +206,20 @@ header .row>div:nth-child(1)>a {
      background: #f0fbff;
 }
  .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
-     background-color: #00bbff;
-     border-color: #00bbff;
+     background-color: var(--main-sky-blue);
+     border-color: var(--main-sky-blue);
      border-radius: 3px;
      margin-right: 5px;
      padding: 4px 10px;
 }
  .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-     color: #00bbff;
+     color: var(--main-sky-blue);
      border-radius: 3px;
      margin-right: 5px;
      padding: 4px 10px;
 }
  .pagination>li>a, .pagination>li>span {
-     color: #00bbff;
+     color: var(--main-sky-blue);
      border-radius: 3px;
      margin-right: 5px;
      padding: 4px 10px;
@@ -230,7 +236,7 @@ header .row>div:nth-child(1)>a {
      border: 1px solid #eee;
 }
  #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
-     color: #00baff;
+     color: var(--main-sky-blue);
 }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer {
     font-family: 'NanumSquareRound',sans-serif;
@@ -241,16 +247,16 @@ header .row>div:nth-child(1)>a {
      font-family: 'NanumSquareRound',sans-serif;
 }
  #article-reply-area>.header h5 {
-     color: #00baff;
+     color: var(--main-sky-blue);
 }
  #main .menu-wrapper>a {
      padding: 0.5em 1.4em 0.5em 0.7em !important;
 }
  a {
-     color: #ff9fb6;
+     color: var(--milky-pink);
 }
  span.a-badge i.fa.fa-info-circle {
-     color: #ff9fb6;
+     color: var(--milky-pink);
 }
  #board-info h1 {
      border-bottom: none;
@@ -276,14 +282,14 @@ header .row>div:nth-child(1)>a {
      background: #f8f8f8;
 }
  #article-list>.article-list-row.hot .list-header>b {
-     color: #ff4226;
-     border: 1px solid #ff4226;
+     color: var(--main-red);
+     border: 1px solid var(--main-red);
      border-radius: 3px;
      font-family: 'NanumSquareRound',sans-serif;
 }
 /* footer */
  .btn-primary {
-     background: #00baff !important;
+     background: var(--main-sky-blue) !important;
      border: none !important;
 }
  #article-list #article-option-area>#article-option-area-toggle-btn {
