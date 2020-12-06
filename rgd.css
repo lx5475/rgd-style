@@ -8,11 +8,12 @@
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
 
-     --header-color: #00ecc8;
+     --header-color: #b5362d;
      --header-color2: #fcfcfc;
-     --accent-color: #515ce9;
+     --accent-color: #348c2b;
 
-     --icon-color: #3e3e3e;
+     --icon-color: #fcfcfc;
+     --icon-invert-color: #222;
 }
  html {
      background: linear-gradient(to bottom, var(--header-color), var(--header-color) 180px, var(--header-color2) 180px, var(--header-color2) 90%, var(--header-color2) 90%, var(--header-color2));
@@ -43,13 +44,17 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/tgdrgd_thu.svg) no-repeat;
+    background: url(https://lx5475.github.io/images/tgdrgd_xmas2020.png) no-repeat;
     background-size: auto 45px;
+}
+/* 광고창 광고 내용 글자 */
+#header-top-notice a {
+    color: var(--icon-color) !important;
 }
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_thu.svg) no-repeat;
+         background: url(https://lx5475.github.io/images/tgdrgd_xmas2020.png) no-repeat;
          background-size: 125px;
          width: 125px;
          margin-top: 4px;
@@ -69,12 +74,13 @@ header .row>div:nth-child(1)>a {
      nav#nav>.nav-header>a {
          color: #3e3e3e !important;
     }
-    /* 광고창 */
-     #header-top-notice {
+    /* 광고창 배경 */
+    #header-top-notice {
          background: var(--header-color);
     }
+    /* 광고창 뱃찌 */
      #header-top-notice strong.notice-badge {
-         background: #3e3e3e !important;
+        background: #3e3e3e !important;
         color: #FFF;
         border-radius: 3px;
     }
@@ -129,8 +135,8 @@ header .row>div:nth-child(1)>a {
 }
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
  #main .menu-wrapper>.header {
-     background: var(--main-sky-blue);
-     color: #222;
+     background: var(--accent-color);
+     color: var(--icon-color);
      border-top-left-radius: 3px;
      border-top-right-radius: 3px;
 }
@@ -151,7 +157,7 @@ header .row>div:nth-child(1)>a {
 }
 /* 헤더 검색 버튼 */
  header #right-search-form>#right-search-btn {
-     color: #3e3e3e;
+     color: var(--icon-color);
 }
 /* 헤더 [광고]배경색 */
  header #header-bar #header-top-notice strong.notice-badge {
@@ -160,7 +166,7 @@ header .row>div:nth-child(1)>a {
 }
 /* fa색상 */
  header #header-bar .fa {
-     color: #3e3e3e;
+     color: var(--icon-color);
 }
 /* 스트리머 게시판 상단 정보 글씨색상 */
  #article-list #article-list-category {
