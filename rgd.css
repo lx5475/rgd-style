@@ -8,12 +8,12 @@
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
 
-     --header-color: #b5362d;
+     --header-color: #fff836;
      --header-color2: #fcfcfc;
-     --accent-color: #348c2b;
+     --accent-color: #36a8ff;
 
-     --icon-color: #fcfcfc;
-     --icon-invert-color: #222;
+     --icon-color: #222;
+     --icon-invert-color: #fcfcfc;
 }
  html {
      background: linear-gradient(to bottom, var(--header-color), var(--header-color) 180px, var(--header-color2) 180px, var(--header-color2) 90%, var(--header-color2) 90%, var(--header-color2));
@@ -44,7 +44,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/tgdrgd_xmas2020.png) no-repeat;
+    background: url(https://lx5475.github.io/images/tgdrgd_cyberpunk.png) no-repeat;
     background-size: auto 45px;
 }
 /* 광고창 광고 내용 글자 */
@@ -54,7 +54,7 @@ header .row>div:nth-child(1)>a {
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_xmas2020.png) no-repeat;
+         background: url(https://lx5475.github.io/images/tgdrgd_cyberpunk.png) no-repeat;
          background-size: 125px;
          width: 125px;
          margin-top: 4px;
