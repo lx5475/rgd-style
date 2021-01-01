@@ -14,9 +14,9 @@
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
 
-     --header-color: #bcd9ef;
+     --header-color: #d2d9de;
      --header-color2: #fcfcfc;
-     --accent-color: #8caec9;
+     --accent-color: #2dc2ff;
 
      --icon-color: #222;
      --icon-invert-color: #fcfcfc;
@@ -50,7 +50,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/day_2.png) no-repeat;
+    background: url(https://lx5475.github.io/images/day_3.png) no-repeat;
     background-size: auto 45px;
     position: relative;
 }
@@ -73,7 +73,7 @@ header .row>div:nth-child(1)>a::after {
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/day_2.png) no-repeat;
+         background: url(https://lx5475.github.io/images/day_3.png) no-repeat;
          background-size: auto 30px;
          margin-left: -15px;
          height: 30px;
