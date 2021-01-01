@@ -14,14 +14,14 @@
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
 
-     --header-color: #d4d4d4;
+     --header-color: #2a2a2a;
      --header-color2: #fcfcfc;
-     --accent-color: #979797;
+     --accent-color: #ead203;
 
-     --icon-color: #222;
-     --icon-invert-color: #fcfcfc;
+     --icon-color: #fcfcfc;
+     --icon-invert-color: #222;
 
-     --icon-url: url(https://lx5475.github.io/images/day_13.png) no-repeat;
+     --icon-url: url(https://lx5475.github.io/images/day_14.png) no-repeat;
 }
  html {
      background: linear-gradient(to bottom, var(--header-color), var(--header-color) 180px, var(--header-color2) 180px, var(--header-color2) 90%, var(--header-color2) 90%, var(--header-color2));
