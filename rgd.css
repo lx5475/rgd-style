@@ -1,4 +1,10 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /*
     [Version] 2.0.0
 */
@@ -44,8 +50,21 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/tgdrgd_tooyoung.png) no-repeat;
+    background: url(https://lx5475.github.io/images/nomo.png) no-repeat;
     background-size: auto 45px;
+    position: relative;
+}
+
+header .row>div:nth-child(1)>a::after {
+    content: '래게더';
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin-left: 50px;
+    font-size: 45px;
+    color: var(--icon-color);
+    text-decoration: none;
+    font-family: 'DungGeunMo'
 }
 /* 광고창 광고 내용 글자 */
 #header-top-notice a {
@@ -54,10 +73,26 @@ header .row>div:nth-child(1)>a {
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/tgdrgd_tooyoung.png) no-repeat;
-         background-size: 125px;
-         width: 125px;
-         margin-top: 4px;
+         background: url(https://lx5475.github.io/images/nomo.png) no-repeat;
+         background-size: auto 30px;
+         margin-left: -15px;
+         height: 30px;
+         margin-top: 5px;
+         position: relative;
+         text-indent: 0px;
+         color: #00000000;
+    }
+    header>#header-area>a>h1::after {
+        content: '래게더';
+        top: 50%;
+        width: 80px;
+        left: 30px;
+        transform: translateY(-50%);
+        position: absolute;
+        font-size: 25px;
+        color: var(--icon-color);
+        text-decoration: none;
+        font-family: 'DungGeunMo'
     }
      header>#header-area>#header-search-link {
          color: var(--icon-color) !important;
