@@ -2,7 +2,7 @@
     @import url(https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css);
     @font-face{font-family:DungGeunMo;src:url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff) format('woff');
     font-weight:400;font-style:normal}
-    :root{--main-sky-blue:#00baff;--main-red:#ff4226;--main-yellow:#ffe953;--milky-pink:#ff9fb6;더
+    :root{--main-sky-blue:#00baff;--main-red:#ff4226;--main-yellow:#ffe953;--milky-pink:#ff9fb6;
     --header-color:#fec89a;
     --header-color2:#f8edeb;--accent-color:#ffb5a7;--icon-color:#222;
     --icon-invert-color:#fcfcfc;
