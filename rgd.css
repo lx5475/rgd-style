@@ -14,14 +14,14 @@
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
 
-     --header-color: #726894;
-     --header-color2: #fcfcfc;
-     --accent-color: #5e5972;
+     --header-color: #F7F3FC;
+     --header-color2: #FFFFFF;
+     --accent-color: #7A1FDE;
 
      --icon-color: #222;
      --icon-invert-color: #fcfcfc;
 
-     --icon-url: url(https://lx5475.github.io/images/day_8.png) no-repeat;
+     --icon-url: url(https://lx5475.github.io/images/tgdrgd_partner.png) no-repeat;
 }
  html {
      background: linear-gradient(to bottom, var(--header-color), var(--header-color) 180px, var(--header-color2) 180px, var(--header-color2) 90%, var(--header-color2) 90%, var(--header-color2));
@@ -58,7 +58,7 @@ header .row>div:nth-child(1)>a {
 }
 
 header .row>div:nth-child(1)>a::after {
-    content: '래게더';
+    content: '김래일';
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
@@ -85,7 +85,7 @@ header .row>div:nth-child(1)>a::after {
          color: #00000000;
     }
     header>#header-area>a>h1::after {
-        content: '래게더';
+        content: '김래일';
         top: 50%;
         width: 80px;
         left: 30px;
