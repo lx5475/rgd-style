@@ -58,7 +58,7 @@ header .row>div:nth-child(1)>a {
 }
 
 header .row>div:nth-child(1)>a::after {
-    content: '뱅송기념일';
+    content: '래게더ㅋㅋ';
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
@@ -85,7 +85,7 @@ header .row>div:nth-child(1)>a::after {
          color: #00000000;
     }
     header>#header-area>a>h1::after {
-        content: '고마워';
+        content: '래게더ㅋㅋ';
         top: 50%;
         width: 80px;
         left: 30px;
