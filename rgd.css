@@ -14,14 +14,14 @@
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
 
-     --header-color: #FFFFFF;
+     --header-color: #1FD77C;
      --header-color2: #FFFFFF;
-     --accent-color: #ffe953;
+     --accent-color: #2A8AF4;
 
      --icon-color: #222;
      --icon-invert-color: #FFFFFF;
 
-     --icon-url: url(https://lx5475.github.io/images/anni3.png) no-repeat;
+     --icon-url: url(https://lx5475.github.io/images/move_to_top.png) no-repeat;
 }
  html {
      background: linear-gradient(to bottom, var(--header-color), var(--header-color) 180px, var(--header-color2) 180px, var(--header-color2) 90%, var(--header-color2) 90%, var(--header-color2));
