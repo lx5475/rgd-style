@@ -18,8 +18,8 @@
      --header-color2: #fdfdfd;
      --accent-color: #ad5dff;
 
-     --icon-color: #111;
-     --icon-invert-color: #fdfdfd;
+     --icon-color: #ffffff
+     --icon-invert-color: #111;
      --icon-url: url(https://lx5475.github.io/images/day_6.png) no-repeat;
 }
  html {
