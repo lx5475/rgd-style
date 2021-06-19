@@ -52,6 +52,7 @@ header .row>div:nth-child(1)>a {
     height: 50px;
     margin-top: 5px;
     background: var(--icon-url);
+    color: var(--icon-color);
     background-size: auto 45px;
     position: relative;
 }
