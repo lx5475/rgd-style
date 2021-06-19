@@ -1,7 +1,7 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 @font-face {
-    font-family: 'DungGeunMo';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-family: 'CookieRunOTF-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,14 +14,12 @@
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
 
-     --header-color: #f22f79;
-     --header-color2: #fcfcfc;
-     --accent-color: #34fe50;
+     --header-color: #7afde1;
+     --header-color2: #fdfdfd;
+     --accent-color: #ad5dff;
 
-     --icon-color: #222;
-     --icon-invert-color: #fcfcfc;
-
-     --icon-url: url(https://lx5475.github.io/images/day_6.png) no-repeat;
+     --icon-color: #111;
+     --icon-invert-color: #fdfdfd;
 }
  html {
      background: linear-gradient(to bottom, var(--header-color), var(--header-color) 180px, var(--header-color2) 180px, var(--header-color2) 90%, var(--header-color2) 90%, var(--header-color2));
@@ -52,7 +50,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: var(--icon-url);
+    background: url(https://lx5475.github.io/images/day_1.png) no-repeat;
     background-size: auto 45px;
     position: relative;
 }
@@ -63,10 +61,10 @@ header .row>div:nth-child(1)>a::after {
     transform: translateY(-50%);
     position: absolute;
     margin-left: 50px;
-    font-size: 45px;
+    font-size: 41px;
     color: var(--icon-color);
     text-decoration: none;
-    font-family: 'DungGeunMo'
+    font-family: 'CookieRunOTF-Bold'
 }
 /* 광고창 광고 내용 글자 */
 #header-top-notice a {
@@ -75,7 +73,7 @@ header .row>div:nth-child(1)>a::after {
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: var(--icon-url);
+         background: url(https://lx5475.github.io/images/day_1.png) no-repeat;
          background-size: auto 30px;
          margin-left: -15px;
          height: 30px;
@@ -94,7 +92,7 @@ header .row>div:nth-child(1)>a::after {
         font-size: 25px;
         color: var(--icon-color);
         text-decoration: none;
-        font-family: 'DungGeunMo'
+        font-family: 'CookieRunOTF-Bold'
     }
      header>#header-area>#header-search-link {
          color: var(--icon-color) !important;
