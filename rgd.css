@@ -54,6 +54,7 @@ header .row>div:nth-child(1)>a {
     background: var(--icon-url);
     background-size: auto 45px;
     position: relative;
+    color: var(--icon-color);
 }
 
 header .row>div:nth-child(1)>a::after {
