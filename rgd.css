@@ -31,6 +31,9 @@
      background: transparent;
      font-family: 'Nanum Gothic', sans-serif;
 }
+a {
+    color: var(--milky-pink);
+}
  header #header-bar #header-menu-right {
      border-left: none;
 }
@@ -54,6 +57,7 @@ header .row>div:nth-child(1)>a {
     background: var(--icon-url);
     background-size: auto 45px;
     position: relative;
+    color: var(--icon-color) !important;
 }
 
 header .row>div:nth-child(1)>a::after {
@@ -63,7 +67,7 @@ header .row>div:nth-child(1)>a::after {
     position: absolute;
     margin-left: 50px;
     font-size: 41px;
-    color: var(--icon-color);
+    color: var(--icon-color) !important;
     text-decoration: none;
     font-family: 'CookieRunOTF-Bold'
 }
@@ -293,9 +297,6 @@ header .row>div:nth-child(1)>a::after {
 }
  #main .menu-wrapper>a {
      padding: 0.5em 1.4em 0.5em 0.7em !important;
-}
- a {
-     color: var(--milky-pink);
 }
  span.a-badge i.fa.fa-info-circle {
      color: var(--milky-pink);
