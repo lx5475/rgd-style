@@ -1,7 +1,7 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 @font-face {
-    font-family: 'DungGeunMo';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-family: 'CookieRunOTF-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,13 +14,12 @@
      --main-yellow: #ffe953;
      --milky-pink: #ff9fb6;
 
-     --header-color: #95e5d9;
-     --header-color2: #fcfcfc;
-     --accent-color: #eb2d2d;
+     --header-color: #2a34ff;
+     --header-color2: #fdfdfd;
+     --accent-color: #ff2424;
 
-     --icon-color: #222;
-     --icon-invert-color: #fcfcfc;
-
+     --icon-color: #ffffff
+     --icon-invert-color: #111;
      --icon-url: url(https://lx5475.github.io/images/day_10.png) no-repeat;
 }
  html {
@@ -63,10 +62,10 @@ header .row>div:nth-child(1)>a::after {
     transform: translateY(-50%);
     position: absolute;
     margin-left: 50px;
-    font-size: 45px;
+    font-size: 41px;
     color: var(--icon-color);
     text-decoration: none;
-    font-family: 'DungGeunMo'
+    font-family: 'CookieRunOTF-Bold'
 }
 /* 광고창 광고 내용 글자 */
 #header-top-notice a {
@@ -94,7 +93,7 @@ header .row>div:nth-child(1)>a::after {
         font-size: 25px;
         color: var(--icon-color);
         text-decoration: none;
-        font-family: 'DungGeunMo'
+        font-family: 'CookieRunOTF-Bold'
     }
      header>#header-area>#header-search-link {
          color: var(--icon-color) !important;
