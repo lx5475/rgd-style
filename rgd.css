@@ -20,6 +20,7 @@
 
      --icon-color: #111;
      --icon-invert-color: #fdfdfd;
+     --icon-url: url(https://lx5475.github.io/images/day_6.png) no-repeat;
 }
  html {
      background: linear-gradient(to bottom, var(--header-color), var(--header-color) 180px, var(--header-color2) 180px, var(--header-color2) 90%, var(--header-color2) 90%, var(--header-color2));
@@ -50,7 +51,7 @@ header .row>div:nth-child(1)>a {
     display: block;
     height: 50px;
     margin-top: 5px;
-    background: url(https://lx5475.github.io/images/day_1.png) no-repeat;
+    background: var(--icon-url);
     background-size: auto 45px;
     position: relative;
 }
@@ -73,7 +74,7 @@ header .row>div:nth-child(1)>a::after {
 /* mobile */
  @media (max-width: 769px) {
      header>#header-area>a>h1 {
-         background: url(https://lx5475.github.io/images/day_1.png) no-repeat;
+         background: var(--icon-url);
          background-size: auto 30px;
          margin-left: -15px;
          height: 30px;
